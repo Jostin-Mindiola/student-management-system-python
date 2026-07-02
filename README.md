@@ -1,75 +1,99 @@
 # Sistema de Gestión de Estudiantes
 
-Aplicación de escritorio desarrollada en **Python** con **Tkinter** y
-**SQLite** para administrar estudiantes mediante operaciones CRUD
-(Crear, Leer, Actualizar y Eliminar).
+Aplicación de escritorio desarrollada en **Python**, utilizando **Tkinter** para la interfaz gráfica y **SQLite** como base de datos local. El sistema permite administrar estudiantes mediante las operaciones básicas de un CRUD (Crear, Leer, Actualizar y Eliminar).
+
+---
 
 ## Características
 
--   Agregar estudiantes.
--   Editar información existente.
--   Eliminar registros.
--   Actualizar la tabla de datos.
--   Base de datos local con SQLite.
--   Interfaz gráfica desarrollada con Tkinter.
+- Agregar nuevos estudiantes.
+- Editar la información de un estudiante.
+- Eliminar registros.
+- Visualizar todos los estudiantes registrados.
+- Actualizar la tabla de datos.
+- Base de datos local con SQLite.
+- Interfaz gráfica intuitiva y fácil de usar.
+
+---
 
 ## Tecnologías utilizadas
 
--   Python 3
--   Tkinter
--   SQLite3
+- Python 3
+- Tkinter
+- SQLite3
+
+---
 
 ## Estructura del proyecto
 
-``` text
-📁 proyecto/
-│── sistema_estudiantes.py
-│── estudiantes.db
+```text
+Sistema-Gestion-Estudiantes-Python/
+│
+├── assets/
+│   └── captura.png
+│
+├── sistema_estudiantes.py
+├── estudiantes.db
 └── README.md
 ```
 
+---
+
 ## Instalación
 
-1.  Clona el repositorio:
+### 1. Clonar el repositorio
 
-``` bash
-git clone https://github.com/TU-USUARIO/TU-REPOSITORIO.git
+```bash
+git clone https://github.com/TU-USUARIO/Sistema-Gestion-Estudiantes-Python.git
 ```
 
-2.  Entra en la carpeta del proyecto:
+### 2. Entrar al proyecto
 
-``` bash
-cd TU-REPOSITORIO
+```bash
+cd Sistema-Gestion-Estudiantes-Python
 ```
 
-3.  Ejecuta el programa:
+### 3. Ejecutar la aplicación
 
-``` bash
+```bash
 python sistema_estudiantes.py
 ```
 
+---
+
 ## Base de datos
 
-La aplicación crea automáticamente el archivo `estudiantes.db` la
-primera vez que se ejecuta.
+La aplicación crea automáticamente el archivo **estudiantes.db** cuando se ejecuta por primera vez.
 
-La tabla contiene los siguientes campos:
+### Estructura de la tabla
 
-  Campo     Tipo
-  --------- ---------
-  id        INTEGER
-  nombre    TEXT
-  carrera   TEXT
-  nota      REAL
+| Campo | Tipo |
+|-------|------|
+| id | INTEGER |
+| nombre | TEXT |
+| carrera | TEXT |
+| nota | REAL |
+
+---
 
 ## Captura de pantalla
 
-Agrega aquí una imagen de la interfaz del programa cuando la subas a
-GitHub.
+<p align="center">
+    <img src="captura.png" alt="Sistema de Gestión de Estudiantes" width="900">
+</p>
 
-``` md
-![Sistema](captura.png)
-```
+---
+
+## Funcionalidades
+
+- Crear estudiantes.
+- Consultar registros.
+- Actualizar información.
+- Eliminar estudiantes.
+- Interfaz gráfica con Tkinter.
+- Persistencia de datos mediante SQLite.
+
+---
 
 ## Autor
 
@@ -77,6 +101,10 @@ GitHub.
 
 Estudiante de Desarrollo de Software.
 
+GitHub: https://github.com/TU-USUARIO
+
+---
+
 ## Licencia
 
-Este proyecto fue desarrollado con fines educativos.
+Este proyecto fue desarrollado con fines educativos y de aprendizaje.
