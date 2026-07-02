@@ -101,7 +101,7 @@ La aplicación crea automáticamente el archivo **estudiantes.db** cuando se eje
 
 Estudiante de Desarrollo de Software.
 
-GitHub: https://github.com/TU-USUARIO
+GitHub: https://github.com/Jostin-Mindiola
 
 ---
 
